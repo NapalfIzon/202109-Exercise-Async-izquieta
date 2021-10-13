@@ -23,3 +23,17 @@ function getUserDataById(id) {
     }
   }, 2000);
 }
+
+function getFinesByDNI(dni) {
+  setTimeout((dni) => {
+    if (dni === "11111111A") {
+      return "Luis, really? Mario, don't go here: https://bit.ly/2X5AZei";
+    } else {
+      return {
+        multa01: "Conducir a 200km/h en zona residencial",
+        multa02: "Hacer el 'ovni' por las curvas de la Rabassada",
+        multa03: "Carreras ilegales conduciendo montacargas",
+      };
+    }
+  }, 2000);
+}
